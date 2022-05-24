@@ -15,4 +15,4 @@ RUN pip install flask
 EXPOSE 5001
 
 # Running python file
-CMD python main.python
+CMD python main.py
