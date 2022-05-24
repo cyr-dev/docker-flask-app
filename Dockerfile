@@ -8,7 +8,7 @@ ADD . /Code
 WORKDIR /Code
 
 # Installating lib 
-RUN pip install flask
+RUN pip install -r requirements.txt
 
 
 # Exposing the port 
